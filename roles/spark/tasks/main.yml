@@ -1,0 +1,6 @@
+---
+- name: Copy start script
+  template: src=templates/start-spark dest=/home/ec2-user/scripts/start-spark mode=a+x
+
+- name: Copy stop script
+  copy: src=templates/stop-spark dest=/home/ec2-user/scripts/stop-spark mode=a+x

@@ -1,0 +1,9 @@
+---
+- name: Copy Flume config file
+  template: src=nginxstream.conf dest=/home/ec2-user/scripts
+
+- name: Copy start script
+  copy: src=start-flume dest=/home/ec2-user/scripts mode=a+x
+
+- name: Copy stop script
+  copy: src=stop-flume dest=/home/ec2-user/scripts mode=a+x

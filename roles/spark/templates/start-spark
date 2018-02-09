@@ -1,0 +1,1 @@
+spark-submit --class=com.datasciex.LogStream --master local[2] /home/ec2-user/scripts/logStream.jar {{host_name}} 9000

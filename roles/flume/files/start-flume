@@ -1,0 +1,1 @@
+flume-ng agent --conf /usr/local/flume/conf --conf-file nginxstream.conf --name a1 -Dflume.root.logger=INFO,console
