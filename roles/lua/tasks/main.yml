@@ -1,0 +1,4 @@
+---
+- name: copy over Lua script for nginx
+  copy: src=ip_blacklist.lua dest=/home/ec2-user/scripts
+  notify: restart nginx

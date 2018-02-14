@@ -1,1 +1,1 @@
-ssh -i mykeypair.pem ec2-user@xxx.xxx.xxx.xxx
+ssh -i mykeypair.pem ec2-user@13.58.128.91

@@ -10,6 +10,8 @@ This repo contains an Ansible playbook to install scripts and conf files for the
 | stop-flume          | Quit Flume.                           |
 | start-spark         | Run Java program under Spark.         |
 | stop-spark          | Quit Spark.                           |         
+| nginx.conf          | Conf file to use Lua scripting.       |         
+| ip_blacklist.lua    | Lua script.                           |         
 
 
 ## Prerequisites

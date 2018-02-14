@@ -1,1 +1,2 @@
 host_name: blklist-vm
+nginx_log_file: /usr/local/openresty/nginx/logs/access.log
